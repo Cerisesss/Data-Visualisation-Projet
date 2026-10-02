@@ -30,10 +30,12 @@ Allez dans le fichier `main.py` et cliquez sur `Select Kernel > Python Environme
 
 
 ## Dataset 
-- Récupérer le dataset depuis ce lien : [https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres](Dataset)
+- Récupérer le dataset depuis ce lien : [Dataset](https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres)
 - Téléchargez le fichier `Valeurs foncières 2025`.
 - Dézippez le fichier et placez-le à la racine du projet.
 - Vérifiez que le nom du fichier est bien `ValeursFoncieres-2025.txt` sinon renommez-le pour que le projet puisse le reconnaître.
 
 ## Lancer le projet
 - Allez dans le fichier `main.py` et cliquez sur `Run all` ou utilisez la commande `python main.py`.
+- Lancer le fichier analyse.ipynb pour K-means
+- Lancer le fichier script_dbscan.ipynb pour DBSCAN
