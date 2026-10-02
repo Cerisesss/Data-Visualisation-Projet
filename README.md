@@ -1,10 +1,11 @@
 # Data Visualisation - Projet fil rouge
 
-## Installation 
+## Installation
+
 1. Cloner le projet :
 
 ```bash
-git clone https://github.com/Cerisesss/Data-Visualisation-Projet.git
+git clone <URL_DU_PROJET>
 ```
 
 2. Créer un environnement virtuel avec le terminal (première méthode) :
@@ -28,14 +29,15 @@ Allez dans le fichier `main.py` et cliquez sur `Select Kernel > Python Environme
 
 Allez dans le fichier `main.py` et cliquez sur `Select Kernel > Python Environments... > Create Python Environment > Quick Create venv`.
 
+## Dataset
 
-## Dataset 
 - Récupérer le dataset depuis ce lien : [Dataset](https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres)
 - Téléchargez le fichier `Valeurs foncières 2025`.
 - Dézippez le fichier et placez-le à la racine du projet.
 - Vérifiez que le nom du fichier est bien `ValeursFoncieres-2025.txt` sinon renommez-le pour que le projet puisse le reconnaître.
 
 ## Lancer le projet
-- Allez dans le fichier `main.py` et cliquez sur `Run all` ou utilisez la commande `python main.py`.
+
+- Allez dans le fichier `nettoyage.ipynb` et cliquez sur `Run all`.
 - Lancer le fichier analyse.ipynb pour K-means
 - Lancer le fichier script_dbscan.ipynb pour DBSCAN
