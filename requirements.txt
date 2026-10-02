@@ -4,3 +4,4 @@ plotly==7.1.0
 numpy==2.3.5
 scikit-learn==1.8.0
 kneed==0.8.6
+seaborn==0.13.2
